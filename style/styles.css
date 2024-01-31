@@ -1,0 +1,122 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+main hr {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+main h1 {
+  color: #11175e;
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+  margin-bottom: 32px;
+}
+.form {
+  position: relative;
+}
+.form input {
+  padding: 15px;
+  outline: none;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.input input {
+  width: 600px;
+}
+.ruyxat {
+  padding-top: 50px;
+}
+.rad-label {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #089d1a;
+  margin-left: -40px;
+}
+#radio:checked + label,
+#radio2:checked + label,
+#radio3:checked + label {
+  background: url(../img/rasmcha.webp) no-repeat;
+  background-size: cover;
+}
+#radio,
+#radio2,
+#radio3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.ruyxat p {
+  margin-left: 15px;
+}
+.form__qator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form__qator input {
+  margin-right: 20px;
+}
+.form__qator p {
+  color: #112e6b;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%; /* 17.6px */
+  letter-spacing: 0.16px;
+  margin-right: auto;
+}
+#xira {
+  color: #8f98a8;
+}
+.form__qator p:hover {
+  color: #2d70fd;
+}
+.paski {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.paski p {
+  color: #b1bacb;
+  -webkit-font-feature-settings: "liga" off;
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 110%; /* 17.6px */
+  letter-spacing: 0.16px;
+}
